@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE2AE0F42BB1B97600BEAD41 /* MyHandPoseClassifier 8 .mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE2AE0F32BB1B97600BEAD41 /* MyHandPoseClassifier 8 .mlmodel */; };
 		BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */; };
 		BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F42BAD8CCB0022085A /* ContentView.swift */; };
 		BE8C23F72BAD8CCC0022085A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C23F62BAD8CCC0022085A /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE2AE0F32BB1B97600BEAD41 /* MyHandPoseClassifier 8 .mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyHandPoseClassifier 8 .mlmodel"; sourceTree = "<group>"; };
 		BE8C23EF2BAD8CCB0022085A /* HearMeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutApp.swift; sourceTree = "<group>"; };
 		BE8C23F42BAD8CCB0022085A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */,
 				BE8C23F42BAD8CCB0022085A /* ContentView.swift */,
 				BE8C23F62BAD8CCC0022085A /* Assets.xcassets */,
+				BE2AE0F32BB1B97600BEAD41 /* MyHandPoseClassifier 8 .mlmodel */,
 			);
 			path = HearMeOut;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				BEB991B02BB183E9003F244E /* VideoView.swift in Sources */,
 				BEB991B62BB18466003F244E /* ImageClassification.swift in Sources */,
 				BEB991B42BB1844C003F244E /* ImageClassificationView.swift in Sources */,
+				BE2AE0F42BB1B97600BEAD41 /* MyHandPoseClassifier 8 .mlmodel in Sources */,
 				BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */,
 				BEB991AE2BB183C5003F244E /* CoreMLDocumentationView.swift in Sources */,
 				BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */,
