@@ -10,12 +10,6 @@
 		BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */; };
 		BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F42BAD8CCB0022085A /* ContentView.swift */; };
 		BE8C23F72BAD8CCC0022085A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C23F62BAD8CCC0022085A /* Assets.xcassets */; };
-		BE8C23FA2BAD8CCC0022085A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C23F92BAD8CCC0022085A /* Preview Assets.xcassets */; };
-		BEAF31FA2BB18BB6008F6879 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAF31F92BB18BB6008F6879 /* ContentView.swift */; };
-		BEAF31FC2BB18BDD008F6879 /* HearMeOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAF31FB2BB18BDD008F6879 /* HearMeOutApp.swift */; };
-		BEAF32002BB18C33008F6879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAF31FF2BB18C33008F6879 /* Assets.xcassets */; };
-		BEAF32022BB18C56008F6879 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAF32012BB18C56008F6879 /* Preview Assets.xcassets */; };
-		BEAF320C2BB18FD9008F6879 /* MyHandPoseClassifier 8 .mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BEAF320B2BB18FD9008F6879 /* MyHandPoseClassifier 8 .mlmodel */; };
 		BEB991AE2BB183C5003F244E /* CoreMLDocumentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991AD2BB183C5003F244E /* CoreMLDocumentationView.swift */; };
 		BEB991B02BB183E9003F244E /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991AF2BB183E9003F244E /* VideoView.swift */; };
 		BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */; };
@@ -28,12 +22,6 @@
 		BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutApp.swift; sourceTree = "<group>"; };
 		BE8C23F42BAD8CCB0022085A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE8C23F62BAD8CCC0022085A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BE8C23F92BAD8CCC0022085A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BEAF31F92BB18BB6008F6879 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BEAF31FB2BB18BDD008F6879 /* HearMeOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutApp.swift; sourceTree = "<group>"; };
-		BEAF31FF2BB18C33008F6879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BEAF32012BB18C56008F6879 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BEAF320B2BB18FD9008F6879 /* MyHandPoseClassifier 8 .mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyHandPoseClassifier 8 .mlmodel"; sourceTree = "<group>"; };
 		BEB991AD2BB183C5003F244E /* CoreMLDocumentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLDocumentationView.swift; sourceTree = "<group>"; };
 		BEB991AF2BB183E9003F244E /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUAVCaptureVideoPreviewView.swift; sourceTree = "<group>"; };
@@ -55,7 +43,6 @@
 		BE8C23E62BAD8CCB0022085A = {
 			isa = PBXGroup;
 			children = (
-				BEAF32042BB18C88008F6879 /* Useless */,
 				BEB991BA2BB184EB003F244E /* YourModel */,
 				BEB991B52BB18466003F244E /* ImageClassification.swift */,
 				BEB991B32BB1844C003F244E /* ImageClassificationView.swift */,
@@ -78,48 +65,11 @@
 		BE8C23F12BAD8CCB0022085A /* HearMeOut */ = {
 			isa = PBXGroup;
 			children = (
-				BEAF31FD2BB18BF0008F6879 /* New Group */,
 				BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */,
 				BE8C23F42BAD8CCB0022085A /* ContentView.swift */,
 				BE8C23F62BAD8CCC0022085A /* Assets.xcassets */,
-				BE8C23F82BAD8CCC0022085A /* Preview Content */,
 			);
 			path = HearMeOut;
-			sourceTree = "<group>";
-		};
-		BE8C23F82BAD8CCC0022085A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				BEAF320B2BB18FD9008F6879 /* MyHandPoseClassifier 8 .mlmodel */,
-				BEAF31FE2BB18C00008F6879 /* New Group */,
-				BE8C23F92BAD8CCC0022085A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		BEAF31FD2BB18BF0008F6879 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		BEAF31FE2BB18C00008F6879 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		BEAF32042BB18C88008F6879 /* Useless */ = {
-			isa = PBXGroup;
-			children = (
-				BEAF32012BB18C56008F6879 /* Preview Assets.xcassets */,
-				BEAF31FF2BB18C33008F6879 /* Assets.xcassets */,
-				BEAF31F92BB18BB6008F6879 /* ContentView.swift */,
-				BEAF31FB2BB18BDD008F6879 /* HearMeOutApp.swift */,
-			);
-			path = Useless;
 			sourceTree = "<group>";
 		};
 		BEB991BA2BB184EB003F244E /* YourModel */ = {
@@ -187,10 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8C23FA2BAD8CCC0022085A /* Preview Assets.xcassets in Resources */,
 				BE8C23F72BAD8CCC0022085A /* Assets.xcassets in Resources */,
-				BEAF32022BB18C56008F6879 /* Preview Assets.xcassets in Resources */,
-				BEAF32002BB18C33008F6879 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,14 +150,11 @@
 			files = (
 				BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */,
 				BEB991B02BB183E9003F244E /* VideoView.swift in Sources */,
-				BEAF31FA2BB18BB6008F6879 /* ContentView.swift in Sources */,
 				BEB991B62BB18466003F244E /* ImageClassification.swift in Sources */,
 				BEB991B42BB1844C003F244E /* ImageClassificationView.swift in Sources */,
 				BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */,
-				BEAF320C2BB18FD9008F6879 /* MyHandPoseClassifier 8 .mlmodel in Sources */,
 				BEB991AE2BB183C5003F244E /* CoreMLDocumentationView.swift in Sources */,
 				BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */,
-				BEAF31FC2BB18BDD008F6879 /* HearMeOutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
