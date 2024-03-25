@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */; };
+		BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F42BAD8CCB0022085A /* ContentView.swift */; };
+		BE8C23F72BAD8CCC0022085A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C23F62BAD8CCC0022085A /* Assets.xcassets */; };
+		BE8C23FA2BAD8CCC0022085A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C23F92BAD8CCC0022085A /* Preview Assets.xcassets */; };
+		BEB991AE2BB183C5003F244E /* CoreMLDocumentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991AD2BB183C5003F244E /* CoreMLDocumentationView.swift */; };
+		BEB991B02BB183E9003F244E /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991AF2BB183E9003F244E /* VideoView.swift */; };
+		BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */; };
+		BEB991B42BB1844C003F244E /* ImageClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B32BB1844C003F244E /* ImageClassificationView.swift */; };
+		BEB991B62BB18466003F244E /* ImageClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B52BB18466003F244E /* ImageClassification.swift */; };
+		BEB991B82BB184B2003F244E /* MyHandPoseClassifier.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = BEB991B72BB184B2003F244E /* MyHandPoseClassifier.mlproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE8C23EF2BAD8CCB0022085A /* HearMeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutApp.swift; sourceTree = "<group>"; };
+		BE8C23F42BAD8CCB0022085A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE8C23F62BAD8CCC0022085A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE8C23F92BAD8CCC0022085A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEB991AD2BB183C5003F244E /* CoreMLDocumentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLDocumentationView.swift; sourceTree = "<group>"; };
+		BEB991AF2BB183E9003F244E /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUAVCaptureVideoPreviewView.swift; sourceTree = "<group>"; };
+		BEB991B32BB1844C003F244E /* ImageClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationView.swift; sourceTree = "<group>"; };
+		BEB991B52BB18466003F244E /* ImageClassification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassification.swift; sourceTree = "<group>"; };
+		BEB991B72BB184B2003F244E /* MyHandPoseClassifier.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyHandPoseClassifier.mlproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE8C23EC2BAD8CCB0022085A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE8C23E62BAD8CCB0022085A = {
+			isa = PBXGroup;
+			children = (
+				BEB991BA2BB184EB003F244E /* YourModel */,
+				BEB991B52BB18466003F244E /* ImageClassification.swift */,
+				BEB991B32BB1844C003F244E /* ImageClassificationView.swift */,
+				BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */,
+				BEB991AF2BB183E9003F244E /* VideoView.swift */,
+				BEB991AD2BB183C5003F244E /* CoreMLDocumentationView.swift */,
+				BE8C23F12BAD8CCB0022085A /* HearMeOut */,
+				BE8C23F02BAD8CCB0022085A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE8C23F02BAD8CCB0022085A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C23EF2BAD8CCB0022085A /* HearMeOut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE8C23F12BAD8CCB0022085A /* HearMeOut */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */,
+				BE8C23F42BAD8CCB0022085A /* ContentView.swift */,
+				BE8C23F62BAD8CCC0022085A /* Assets.xcassets */,
+				BE8C23F82BAD8CCC0022085A /* Preview Content */,
+			);
+			path = HearMeOut;
+			sourceTree = "<group>";
+		};
+		BE8C23F82BAD8CCC0022085A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C23F92BAD8CCC0022085A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEB991BA2BB184EB003F244E /* YourModel */ = {
+			isa = PBXGroup;
+			children = (
+				BEB991B72BB184B2003F244E /* MyHandPoseClassifier.mlproj */,
+			);
+			path = YourModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE8C23EE2BAD8CCB0022085A /* HearMeOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8C23FD2BAD8CCC0022085A /* Build configuration list for PBXNativeTarget "HearMeOut" */;
+			buildPhases = (
+				BE8C23EB2BAD8CCB0022085A /* Sources */,
+				BE8C23EC2BAD8CCB0022085A /* Frameworks */,
+				BE8C23ED2BAD8CCB0022085A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HearMeOut;
+			productName = HearMeOut;
+			productReference = BE8C23EF2BAD8CCB0022085A /* HearMeOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE8C23E72BAD8CCB0022085A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BE8C23EE2BAD8CCB0022085A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BE8C23EA2BAD8CCB0022085A /* Build configuration list for PBXProject "HearMeOut" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE8C23E62BAD8CCB0022085A;
+			productRefGroup = BE8C23F02BAD8CCB0022085A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE8C23EE2BAD8CCB0022085A /* HearMeOut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE8C23ED2BAD8CCB0022085A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8C23FA2BAD8CCC0022085A /* Preview Assets.xcassets in Resources */,
+				BE8C23F72BAD8CCC0022085A /* Assets.xcassets in Resources */,
+				BEB991B82BB184B2003F244E /* MyHandPoseClassifier.mlproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE8C23EB2BAD8CCB0022085A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */,
+				BEB991B02BB183E9003F244E /* VideoView.swift in Sources */,
+				BEB991B62BB18466003F244E /* ImageClassification.swift in Sources */,
+				BEB991B42BB1844C003F244E /* ImageClassificationView.swift in Sources */,
+				BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */,
+				BEB991AE2BB183C5003F244E /* CoreMLDocumentationView.swift in Sources */,
+				BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE8C23FB2BAD8CCC0022085A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE8C23FC2BAD8CCC0022085A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE8C23FE2BAD8CCC0022085A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HearMeOut/Preview Content\"";
+				DEVELOPMENT_TEAM = AWX4HJ7JT5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer-academy.HearMeOut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE8C23FF2BAD8CCC0022085A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HearMeOut/Preview Content\"";
+				DEVELOPMENT_TEAM = AWX4HJ7JT5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer-academy.HearMeOut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE8C23EA2BAD8CCB0022085A /* Build configuration list for PBXProject "HearMeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8C23FB2BAD8CCC0022085A /* Debug */,
+				BE8C23FC2BAD8CCC0022085A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8C23FD2BAD8CCC0022085A /* Build configuration list for PBXNativeTarget "HearMeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8C23FE2BAD8CCC0022085A /* Debug */,
+				BE8C23FF2BAD8CCC0022085A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE8C23E72BAD8CCB0022085A /* Project object */;
+}
