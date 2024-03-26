@@ -5,13 +5,6 @@
 //  Created by Yuri Mario Gianoli on 25/03/24.
 //
 
-//
-//  SwiftUIAVCaptureVideoPreviewView.swift
-//  FoundationHIG
-//
-//  Created by Giusi Di Paola on 01/09/23.
-//
-
 
 import SwiftUI
 import AVFoundation

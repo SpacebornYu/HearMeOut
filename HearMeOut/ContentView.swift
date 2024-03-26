@@ -1,31 +1,3 @@
-//
-//  ContentView.swift
-//  HearMeOut
-//
-//  Created by Yuri Mario Gianoli on 22/03/24.
-//
-//
-//import SwiftUI
-//
-//struct ContentView: View {
-//    var body: some View {
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundStyle(.tint)
-//            Text("Hello, world!")
-//        }
-//        .padding()
-//    }
-//}
-//
-//  
-//
-//
-//#Preview {
-//    ContentView()
-//}
-
 
 //
 //  CoreMLDocumentationView.swift
@@ -46,28 +18,32 @@ struct CoreMLDocumentationView: View {
                 Section {
                     HStack() {
                         Spacer()
-                        Button(action: {
+                        Button{
                             isModalVideoShowed = true
-                        }){
-                            Text("Live Camera") .foregroundColor(.white)
+                        } label: {
+                            Text("Live Demonstration")
+                                .foregroundColor(.black)
                                 .padding(.horizontal, 50)
                                 .padding(.vertical, 10)
                                 .background(.red)
                                 .cornerRadius(13.0)
-                        }.padding(.vertical, 20)
+                        }
+                        .padding(.vertical, 20)
+                            
                             .sheet(isPresented: $isModalVideoShowed) {
                                 VideoView()
                             }
                         Spacer()
                     }
                 } header: {
-                    Text("Recognize ASL letters by using the camera")
+                    Text("Recognize ASL letters by using\nthe camera")
+                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 } footer: {
                     Text("Thanks to the 'Hand Pose Classification' model and a specific-made Machine Learning model, with this app you are able to perform (via the phone camera) American Sign Language letters get as a result the corrisponding alphabetic letter. ")
+                        .fontWeight(.semibold)
                     
                 }
             }
-            
             .navigationTitle("ASL CoreML")
         }
     }
