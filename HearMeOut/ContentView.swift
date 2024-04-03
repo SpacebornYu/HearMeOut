@@ -46,7 +46,7 @@ struct CoreMLDocumentationView: View {
                     
                 }
             }
-            .navigationTitle("ASL with CoreML")
+            .navigationTitle("ASL with CreateML")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                   
