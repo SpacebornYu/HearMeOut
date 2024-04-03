@@ -22,7 +22,7 @@ class ImageClassification: ObservableObject {
              and replace `MobileNet` with that model's generated Swift class.
              */
             let modelURL = Bundle.main.url(forResource: "YourModel", withExtension: "mlmodelc")!
-           let model = try VNCoreMLModel(for: MyHandPoseClassifier_8_(contentsOf: modelURL).model)
+           let model = try VNCoreMLModel(for: MyHandPoseClassifier1(contentsOf: modelURL).model)
             
             let request = VNCoreMLRequest(model: model, completionHandler: { [weak self] request, error in
                 self?.processClassifications(for: request, error: error)

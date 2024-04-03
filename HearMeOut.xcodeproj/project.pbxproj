@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE2AE0F42BB1B97600BEAD41 /* MyHandPoseClassifier 8 .mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE2AE0F32BB1B97600BEAD41 /* MyHandPoseClassifier 8 .mlmodel */; };
 		BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */; };
 		BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F42BAD8CCB0022085A /* ContentView.swift */; };
 		BE8C23F72BAD8CCC0022085A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C23F62BAD8CCC0022085A /* Assets.xcassets */; };
@@ -17,10 +16,10 @@
 		BEB991B42BB1844C003F244E /* ImageClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B32BB1844C003F244E /* ImageClassificationView.swift */; };
 		BEB991B62BB18466003F244E /* ImageClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B52BB18466003F244E /* ImageClassification.swift */; };
 		BED127B42BBD4E010094C2B4 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED127B32BBD4E010094C2B4 /* Onboarding.swift */; };
+		BED127BC2BBD91200094C2B4 /* MyHandPoseClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BED127BB2BBD91200094C2B4 /* MyHandPoseClassifier1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE2AE0F32BB1B97600BEAD41 /* MyHandPoseClassifier 8 .mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyHandPoseClassifier 8 .mlmodel"; sourceTree = "<group>"; };
 		BE8C23EF2BAD8CCB0022085A /* HearMeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutApp.swift; sourceTree = "<group>"; };
 		BE8C23F42BAD8CCB0022085A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +30,7 @@
 		BEB991B32BB1844C003F244E /* ImageClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationView.swift; sourceTree = "<group>"; };
 		BEB991B52BB18466003F244E /* ImageClassification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassification.swift; sourceTree = "<group>"; };
 		BED127B32BBD4E010094C2B4 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		BED127BB2BBD91200094C2B4 /* MyHandPoseClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyHandPoseClassifier1.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 				BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */,
 				BE8C23F42BAD8CCB0022085A /* ContentView.swift */,
 				BE8C23F62BAD8CCC0022085A /* Assets.xcassets */,
-				BE2AE0F32BB1B97600BEAD41 /* MyHandPoseClassifier 8 .mlmodel */,
+				BED127BB2BBD91200094C2B4 /* MyHandPoseClassifier1.mlmodel */,
 			);
 			path = HearMeOut;
 			sourceTree = "<group>";
@@ -155,11 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED127B42BBD4E010094C2B4 /* Onboarding.swift in Sources */,
+				BED127BC2BBD91200094C2B4 /* MyHandPoseClassifier1.mlmodel in Sources */,
 				BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */,
 				BEB991B02BB183E9003F244E /* VideoView.swift in Sources */,
 				BEB991B62BB18466003F244E /* ImageClassification.swift in Sources */,
 				BEB991B42BB1844C003F244E /* ImageClassificationView.swift in Sources */,
-				BE2AE0F42BB1B97600BEAD41 /* MyHandPoseClassifier 8 .mlmodel in Sources */,
 				BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */,
 				BEB991AE2BB183C5003F244E /* CoreMLDocumentationView.swift in Sources */,
 				BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */,

@@ -24,7 +24,7 @@ class UIAVCaptureVideoPreviewView: UIView, AVCaptureVideoDataOutputSampleBufferD
     func setModel() {
         
         // create instance, model property
-        mlModel = try? VNCoreMLModel(for: MyHandPoseClassifier_8_().model)
+        mlModel = try? VNCoreMLModel(for: MyHandPoseClassifier1().model)
     }
     
     func setupSession() {
