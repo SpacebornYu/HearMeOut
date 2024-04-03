@@ -16,6 +16,7 @@
 		BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */; };
 		BEB991B42BB1844C003F244E /* ImageClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B32BB1844C003F244E /* ImageClassificationView.swift */; };
 		BEB991B62BB18466003F244E /* ImageClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B52BB18466003F244E /* ImageClassification.swift */; };
+		BED127B42BBD4E010094C2B4 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED127B32BBD4E010094C2B4 /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUAVCaptureVideoPreviewView.swift; sourceTree = "<group>"; };
 		BEB991B32BB1844C003F244E /* ImageClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationView.swift; sourceTree = "<group>"; };
 		BEB991B52BB18466003F244E /* ImageClassification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassification.swift; sourceTree = "<group>"; };
+		BED127B32BBD4E010094C2B4 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		BE8C23E62BAD8CCB0022085A = {
 			isa = PBXGroup;
 			children = (
+				BED127B32BBD4E010094C2B4 /* Onboarding.swift */,
 				BEB991BA2BB184EB003F244E /* YourModel */,
 				BEB991B52BB18466003F244E /* ImageClassification.swift */,
 				BEB991B32BB1844C003F244E /* ImageClassificationView.swift */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED127B42BBD4E010094C2B4 /* Onboarding.swift in Sources */,
 				BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */,
 				BEB991B02BB183E9003F244E /* VideoView.swift in Sources */,
 				BEB991B62BB18466003F244E /* ImageClassification.swift in Sources */,
