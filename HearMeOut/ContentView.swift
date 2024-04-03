@@ -11,6 +11,8 @@ import SwiftUI
 struct CoreMLDocumentationView: View {
     @State var isModalCOMLShowed = false
     @State var isModalVideoShowed = false
+    @AppStorage("firstTime") var firstTime: Bool = true
+    @State var isSettingsShowed: Bool = false
     
     var body: some View {
         NavigationStack {
@@ -45,8 +47,27 @@ struct CoreMLDocumentationView: View {
                 }
             }
             .navigationTitle("ASL CoreML")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                  
+                    Button(action: {
+                        isSettingsShowed.toggle()
+                    }){
+                        Image(systemName: "info.circle")
+                    }.sheet(isPresented: $isSettingsShowed) {
+                        Onboarding()
+                    }
+                    
+                }
+            }
         }
+        .sheet(isPresented: $firstTime) {
+                print("Onboarding dismissed!")
+            } content: {
+                Onboarding()
+            }
     }
+    
 }
 
 #Preview {
