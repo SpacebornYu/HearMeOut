@@ -51,7 +51,7 @@ struct Onboarding: View {
                     
                     VStack(alignment: .leading) {
                         HStack {
-                            Image(systemName: "camera.viewfinder")
+                            Image(systemName: "cpu")
                                 .font(.custom("", size: 40))
                                 .font(.title)
                                 .fontWeight(.bold)
@@ -73,22 +73,27 @@ struct Onboarding: View {
                     
                     
                     
-                HStack(spacing: 16.0) {
-                    Image(systemName: "iphone.gen2")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .foregroundColor(.accentColor)
-                        .padding(.horizontal, 6)
                     VStack(alignment: .leading) {
-                        Text("Develop")
-                        Text("Implement with ease and bring your design to life! Follow the code to seamlessly implement.")
-                            .foregroundColor(.secondary)
+                        HStack {
+                            Image(systemName: "camera.viewfinder")
+                                .font(.custom("", size: 40))
+                                .font(.title)
+                                .fontWeight(.bold)
+                                .foregroundColor(.accentColor)
+                            Text("HearMeOut")
+                                .fontWeight(.bold)
+                                .font(.title)
+                                .foregroundColor(.accentColor)
+                        }
+                        Spacer()
+                        Spacer()
+                        Spacer()
+                        Text("CreateML is Apple's framework for building and training machine learning models directly within Xcode. Hand pose classification,used for this app, is a specific application that involves training a model to recognize and classify different hand gestures from images or video frames.")
+                            .lineSpacing(12.0)
+                            .font(.custom("", size: 18))
+                            .foregroundColor(.white)
                     }
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                }
-                .padding(.top, 50)
+                    .padding(.top, 50)
             }
             
             .padding(.horizontal, 28)
