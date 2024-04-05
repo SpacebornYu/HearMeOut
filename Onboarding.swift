@@ -12,7 +12,9 @@ import SwiftUI
 struct Onboarding: View {
     @AppStorage("firstTime") var firstTime: Bool = true
     
+
     var body: some View {
+
         VStack {
             Spacer()
             VStack {

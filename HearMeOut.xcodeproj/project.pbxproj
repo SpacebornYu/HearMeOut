@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE3800D32BBEF36A007F4B77 /* YourModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE3800D22BBEF36A007F4B77 /* YourModel.mlmodel */; };
+		BE3800D52BBEF3EE007F4B77 /* MyHandPoseClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE3800D42BBEF3EE007F4B77 /* MyHandPoseClassifier1.mlmodel */; };
+		BE3800D72BBEF542007F4B77 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE3800D62BBEF542007F4B77 /* SqueezeNet.mlmodel */; };
+		BE3800DB2BBF01EB007F4B77 /* MyHandPose.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE3800DA2BBF01EB007F4B77 /* MyHandPose.mlmodel */; };
 		BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */; };
 		BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F42BAD8CCB0022085A /* ContentView.swift */; };
 		BE8C23F72BAD8CCC0022085A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C23F62BAD8CCC0022085A /* Assets.xcassets */; };
-		BEB991AE2BB183C5003F244E /* CoreMLDocumentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991AD2BB183C5003F244E /* CoreMLDocumentationView.swift */; };
 		BEB991B02BB183E9003F244E /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991AF2BB183E9003F244E /* VideoView.swift */; };
 		BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */; };
-		BEB991B42BB1844C003F244E /* ImageClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B32BB1844C003F244E /* ImageClassificationView.swift */; };
-		BEB991B62BB18466003F244E /* ImageClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B52BB18466003F244E /* ImageClassification.swift */; };
 		BED127B42BBD4E010094C2B4 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED127B32BBD4E010094C2B4 /* Onboarding.swift */; };
-		BED127BC2BBD91200094C2B4 /* MyHandPoseClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BED127BB2BBD91200094C2B4 /* MyHandPoseClassifier1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE3800D22BBEF36A007F4B77 /* YourModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YourModel.mlmodel; sourceTree = "<group>"; };
+		BE3800D42BBEF3EE007F4B77 /* MyHandPoseClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyHandPoseClassifier1.mlmodel; sourceTree = "<group>"; };
+		BE3800D62BBEF542007F4B77 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		BE3800DA2BBF01EB007F4B77 /* MyHandPose.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyHandPose.mlmodel; sourceTree = "<group>"; };
 		BE8C23EF2BAD8CCB0022085A /* HearMeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutApp.swift; sourceTree = "<group>"; };
 		BE8C23F42BAD8CCB0022085A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE8C23F62BAD8CCC0022085A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BEB991AD2BB183C5003F244E /* CoreMLDocumentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLDocumentationView.swift; sourceTree = "<group>"; };
 		BEB991AF2BB183E9003F244E /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUAVCaptureVideoPreviewView.swift; sourceTree = "<group>"; };
-		BEB991B32BB1844C003F244E /* ImageClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationView.swift; sourceTree = "<group>"; };
-		BEB991B52BB18466003F244E /* ImageClassification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassification.swift; sourceTree = "<group>"; };
 		BED127B32BBD4E010094C2B4 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
-		BED127BB2BBD91200094C2B4 /* MyHandPoseClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyHandPoseClassifier1.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,11 +49,6 @@
 			children = (
 				BED127B32BBD4E010094C2B4 /* Onboarding.swift */,
 				BEB991BA2BB184EB003F244E /* YourModel */,
-				BEB991B52BB18466003F244E /* ImageClassification.swift */,
-				BEB991B32BB1844C003F244E /* ImageClassificationView.swift */,
-				BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */,
-				BEB991AF2BB183E9003F244E /* VideoView.swift */,
-				BEB991AD2BB183C5003F244E /* CoreMLDocumentationView.swift */,
 				BE8C23F12BAD8CCB0022085A /* HearMeOut */,
 				BE8C23F02BAD8CCB0022085A /* Products */,
 			);
@@ -73,7 +68,6 @@
 				BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */,
 				BE8C23F42BAD8CCB0022085A /* ContentView.swift */,
 				BE8C23F62BAD8CCC0022085A /* Assets.xcassets */,
-				BED127BB2BBD91200094C2B4 /* MyHandPoseClassifier1.mlmodel */,
 			);
 			path = HearMeOut;
 			sourceTree = "<group>";
@@ -81,6 +75,12 @@
 		BEB991BA2BB184EB003F244E /* YourModel */ = {
 			isa = PBXGroup;
 			children = (
+				BE3800DA2BBF01EB007F4B77 /* MyHandPose.mlmodel */,
+				BE3800D62BBEF542007F4B77 /* SqueezeNet.mlmodel */,
+				BE3800D42BBEF3EE007F4B77 /* MyHandPoseClassifier1.mlmodel */,
+				BE3800D22BBEF36A007F4B77 /* YourModel.mlmodel */,
+				BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */,
+				BEB991AF2BB183E9003F244E /* VideoView.swift */,
 			);
 			path = YourModel;
 			sourceTree = "<group>";
@@ -155,13 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED127B42BBD4E010094C2B4 /* Onboarding.swift in Sources */,
-				BED127BC2BBD91200094C2B4 /* MyHandPoseClassifier1.mlmodel in Sources */,
+				BE3800D32BBEF36A007F4B77 /* YourModel.mlmodel in Sources */,
 				BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */,
+				BE3800D72BBEF542007F4B77 /* SqueezeNet.mlmodel in Sources */,
 				BEB991B02BB183E9003F244E /* VideoView.swift in Sources */,
-				BEB991B62BB18466003F244E /* ImageClassification.swift in Sources */,
-				BEB991B42BB1844C003F244E /* ImageClassificationView.swift in Sources */,
+				BE3800D52BBEF3EE007F4B77 /* MyHandPoseClassifier1.mlmodel in Sources */,
 				BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */,
-				BEB991AE2BB183C5003F244E /* CoreMLDocumentationView.swift in Sources */,
+				BE3800DB2BBF01EB007F4B77 /* MyHandPose.mlmodel in Sources */,
 				BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
