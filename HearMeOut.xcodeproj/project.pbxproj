@@ -7,23 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE3800D32BBEF36A007F4B77 /* YourModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE3800D22BBEF36A007F4B77 /* YourModel.mlmodel */; };
-		BE3800D52BBEF3EE007F4B77 /* MyHandPoseClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE3800D42BBEF3EE007F4B77 /* MyHandPoseClassifier1.mlmodel */; };
-		BE3800D72BBEF542007F4B77 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE3800D62BBEF542007F4B77 /* SqueezeNet.mlmodel */; };
-		BE3800DB2BBF01EB007F4B77 /* MyHandPose.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE3800DA2BBF01EB007F4B77 /* MyHandPose.mlmodel */; };
 		BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */; };
 		BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F42BAD8CCB0022085A /* ContentView.swift */; };
 		BE8C23F72BAD8CCC0022085A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C23F62BAD8CCC0022085A /* Assets.xcassets */; };
 		BEB991B02BB183E9003F244E /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991AF2BB183E9003F244E /* VideoView.swift */; };
 		BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */; };
 		BED127B42BBD4E010094C2B4 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED127B32BBD4E010094C2B4 /* Onboarding.swift */; };
+		BEDB0AF82BDF934A008E9058 /* MyHandPose.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BEDB0AF72BDF934A008E9058 /* MyHandPose.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE3800D22BBEF36A007F4B77 /* YourModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YourModel.mlmodel; sourceTree = "<group>"; };
-		BE3800D42BBEF3EE007F4B77 /* MyHandPoseClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyHandPoseClassifier1.mlmodel; sourceTree = "<group>"; };
-		BE3800D62BBEF542007F4B77 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
-		BE3800DA2BBF01EB007F4B77 /* MyHandPose.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyHandPose.mlmodel; sourceTree = "<group>"; };
 		BE8C23EF2BAD8CCB0022085A /* HearMeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutApp.swift; sourceTree = "<group>"; };
 		BE8C23F42BAD8CCB0022085A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +24,7 @@
 		BEB991AF2BB183E9003F244E /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUAVCaptureVideoPreviewView.swift; sourceTree = "<group>"; };
 		BED127B32BBD4E010094C2B4 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		BEDB0AF72BDF934A008E9058 /* MyHandPose.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyHandPose.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +69,7 @@
 		BEB991BA2BB184EB003F244E /* YourModel */ = {
 			isa = PBXGroup;
 			children = (
-				BE3800DA2BBF01EB007F4B77 /* MyHandPose.mlmodel */,
-				BE3800D62BBEF542007F4B77 /* SqueezeNet.mlmodel */,
-				BE3800D42BBEF3EE007F4B77 /* MyHandPoseClassifier1.mlmodel */,
-				BE3800D22BBEF36A007F4B77 /* YourModel.mlmodel */,
+				BEDB0AF72BDF934A008E9058 /* MyHandPose.mlmodel */,
 				BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */,
 				BEB991AF2BB183E9003F244E /* VideoView.swift */,
 			);
@@ -155,13 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED127B42BBD4E010094C2B4 /* Onboarding.swift in Sources */,
-				BE3800D32BBEF36A007F4B77 /* YourModel.mlmodel in Sources */,
 				BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */,
-				BE3800D72BBEF542007F4B77 /* SqueezeNet.mlmodel in Sources */,
 				BEB991B02BB183E9003F244E /* VideoView.swift in Sources */,
-				BE3800D52BBEF3EE007F4B77 /* MyHandPoseClassifier1.mlmodel in Sources */,
 				BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */,
-				BE3800DB2BBF01EB007F4B77 /* MyHandPose.mlmodel in Sources */,
+				BEDB0AF82BDF934A008E9058 /* MyHandPose.mlmodel in Sources */,
 				BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HearMeOut/Preview Content\"";
@@ -310,8 +299,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "developer-academy.HearMeOut";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yurigianoli.HearMeOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HearMeOut/Preview Content\"";
@@ -340,8 +331,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "developer-academy.HearMeOut";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yurigianoli.HearMeOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
