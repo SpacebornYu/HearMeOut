@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE1287F02BFC8941009EDF5B /* CMSampleBuffer+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1287EF2BFC8941009EDF5B /* CMSampleBuffer+CGImage.swift */; };
+		BE1287F22BFC8C75009EDF5B /* SwiftUIAVCaptureVideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1287F12BFC8C75009EDF5B /* SwiftUIAVCaptureVideoPreviewView.swift */; };
 		BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */; };
 		BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C23F42BAD8CCB0022085A /* ContentView.swift */; };
 		BE8C23F72BAD8CCC0022085A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C23F62BAD8CCC0022085A /* Assets.xcassets */; };
 		BEB991B02BB183E9003F244E /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991AF2BB183E9003F244E /* VideoView.swift */; };
-		BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */; };
+		BEB991B22BB1841B003F244E /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB991B12BB1841B003F244E /* CameraManager.swift */; };
 		BED127B42BBD4E010094C2B4 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED127B32BBD4E010094C2B4 /* Onboarding.swift */; };
 		BEDB0AF82BDF934A008E9058 /* MyHandPose.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BEDB0AF72BDF934A008E9058 /* MyHandPose.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE1287EF2BFC8941009EDF5B /* CMSampleBuffer+CGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMSampleBuffer+CGImage.swift"; sourceTree = "<group>"; };
+		BE1287F12BFC8C75009EDF5B /* SwiftUIAVCaptureVideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAVCaptureVideoPreviewView.swift; sourceTree = "<group>"; };
 		BE8C23EF2BAD8CCB0022085A /* HearMeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8C23F22BAD8CCB0022085A /* HearMeOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutApp.swift; sourceTree = "<group>"; };
 		BE8C23F42BAD8CCB0022085A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE8C23F62BAD8CCC0022085A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB991AF2BB183E9003F244E /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
-		BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUAVCaptureVideoPreviewView.swift; sourceTree = "<group>"; };
+		BEB991B12BB1841B003F244E /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		BED127B32BBD4E010094C2B4 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		BEDB0AF72BDF934A008E9058 /* MyHandPose.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyHandPose.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +45,7 @@
 		BE8C23E62BAD8CCB0022085A = {
 			isa = PBXGroup;
 			children = (
+				BE1287EF2BFC8941009EDF5B /* CMSampleBuffer+CGImage.swift */,
 				BED127B32BBD4E010094C2B4 /* Onboarding.swift */,
 				BEB991BA2BB184EB003F244E /* YourModel */,
 				BE8C23F12BAD8CCB0022085A /* HearMeOut */,
@@ -70,7 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				BEDB0AF72BDF934A008E9058 /* MyHandPose.mlmodel */,
-				BEB991B12BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift */,
+				BE1287F12BFC8C75009EDF5B /* SwiftUIAVCaptureVideoPreviewView.swift */,
+				BEB991B12BB1841B003F244E /* CameraManager.swift */,
 				BEB991AF2BB183E9003F244E /* VideoView.swift */,
 			);
 			path = YourModel;
@@ -146,11 +152,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED127B42BBD4E010094C2B4 /* Onboarding.swift in Sources */,
-				BEB991B22BB1841B003F244E /* SwiftUAVCaptureVideoPreviewView.swift in Sources */,
+				BEB991B22BB1841B003F244E /* CameraManager.swift in Sources */,
 				BEB991B02BB183E9003F244E /* VideoView.swift in Sources */,
+				BE1287F22BFC8C75009EDF5B /* SwiftUIAVCaptureVideoPreviewView.swift in Sources */,
 				BE8C23F52BAD8CCB0022085A /* ContentView.swift in Sources */,
 				BEDB0AF82BDF934A008E9058 /* MyHandPose.mlmodel in Sources */,
 				BE8C23F32BAD8CCB0022085A /* HearMeOutApp.swift in Sources */,
+				BE1287F02BFC8941009EDF5B /* CMSampleBuffer+CGImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
