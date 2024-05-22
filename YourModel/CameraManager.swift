@@ -10,7 +10,7 @@ class CameraManager: NSObject, ObservableObject {
     private var sessionQueue = DispatchQueue(label: "video.preview.session")
     
     private var handPoseRequest = VNDetectHumanHandPoseRequest()
-    private let handPoseClassifier: MyHandPose
+    private let handPoseClassifier: ASLHandClassifier
     
     @Published var handPrediction: String?
     @Published var predictionResult: String?
@@ -42,7 +42,7 @@ class CameraManager: NSObject, ObservableObject {
     
     override init() {
         do {
-            handPoseClassifier = try MyHandPose(configuration: MLModelConfiguration())
+            handPoseClassifier = try ASLHandClassifier(configuration: MLModelConfiguration())
             
             super.init()
             
